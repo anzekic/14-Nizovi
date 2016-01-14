@@ -25,9 +25,7 @@ namespace Vsite.CSharp
             try
             {
                 Console.WriteLine("Pozivam Nesigurno:");
-                // TODO: Odkomentirajte donju naredbu i metodu koja se poziva. U postavkama projekta potražite i aktivirajte opciju "Allow unsafe code" da se omoguæi prevoðenje koda.
-                //Console.WriteLine(ZbrojiNesigurno(dvaDpolje));
-                // TODO: Pokrenite program i ispis prekopirajte u datoteku "ProvjeraIndeksa.txt" pridruženu projektu. Obrazložite rezultat ispisa metode ZbrojiNesigurno.
+                Console.WriteLine(ZbrojiNesigurno(dvaDpolje));
             }
             catch (Exception e)
             {
@@ -51,7 +49,6 @@ namespace Vsite.CSharp
             return zbroj;
         }
 
-        /*
         unsafe static int ZbrojiNesigurno(int[,] polje)
         {
             int zbroj = 0;
@@ -70,7 +67,6 @@ namespace Vsite.CSharp
             }
             return zbroj;
         }
-        */
         
     }
 }

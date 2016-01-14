@@ -1,1 +1,10 @@
-﻿
+﻿Pozivam Sigurno:
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Vsite.CSharp.Program.ZbrojiSigurno(Int32[,] polje) in C:\Users\User\Docume
+nts\Projects\14-Nizovi\ProvjeraIndeksa\ProvjeraIndeksa.cs:line 46
+   at Vsite.CSharp.Program.Main(String[] args) in C:\Users\User\Documents\Projec
+ts\14-Nizovi\ProvjeraIndeksa\ProvjeraIndeksa.cs:line 16
+
+Pozivam Nesigurno:
+-354994146
+GOTOVO!!!

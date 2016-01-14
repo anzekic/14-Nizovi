@@ -5,10 +5,9 @@ namespace Vsite.CSharp
     // niz kao argument metode
     class Program
     {
-        // TODO: U metodi SamVrag() napisati naredbu kojom se jedan od èlanova niza mijenja u neki drugi tekst. Pokrenuti program i usporediti sadržaj nakon poziva metode. Ispis prekopirati u datoteku "NizoviKaoArgumenti.txt" pridruženu projektu.
         static void SamVrag(string[] božjeZapovjedi)
         {
-
+            božjeZapovjedi[2] = "Di su pare?";
         }
 
         static void Main(string[] args)
