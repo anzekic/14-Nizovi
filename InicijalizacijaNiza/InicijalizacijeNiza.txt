@@ -1,1 +1,5 @@
-﻿
+﻿00000. kontrola: System.Windows.Forms.Button, Text:
+1. kontrola: System.Windows.Forms.Form, Text:
+2. kontrola: System.Windows.Forms.Button, Text:
+3. kontrola: System.Windows.Forms.TextBox, Text:
+GOTOVO!!!
